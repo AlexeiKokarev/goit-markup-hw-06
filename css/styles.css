@@ -747,3 +747,40 @@ img {
 .btn-modal:hover .modal-close-btn {
     fill: #F5F4FA;
 }
+
+.footer-form {
+    position: relative;
+}
+
+.mail-label {
+    position: relative;
+    width: 358px;
+    height: 50px;
+    color: #FFFFFF;
+    background-color: #2F303A;
+    outline: none;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+}
+
+.btn-subscribe {
+    position: relative;
+    margin-left: 12px;
+    width: 200px;
+    height: 50px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    background-color: var(--accent-color);
+    border-radius: 4px;
+    border: transparent;
+    cursor: pointer;
+}
+
+.btn-icon {
+    fill: #FFFFFf;
+}
