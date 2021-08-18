@@ -343,7 +343,44 @@
     <div class=" backdrop is-hidden " data-modal>
         <div class="modal "><button type="button " class="btn-modal " data-modal-close>
             <svg class="modal-close-btn ">
-            <use href="./image/closebtn.svg#icon-closebtn "></use></svg></button></div>
+            <use href="./image/closebtn.svg#icon-closebtn "></use></svg></button>
+            <h2 class="modal-titel">Оставьте свои данные, мы вам перезвоним</h2>
+            <form class="modal-form">
+                <div class="modal-fild">
+                    <label class="fild-item" for="name">Имя</label>
+                    <input type="text" class="form-input" name="name" id="name" autofocus/>
+                    <svg class="icon-fild">
+                        <use href="./image/sprite.svg#icon-person-black"></use>
+                    </svg>
+                </div>
+                <div class="modal-fild">
+                    <label class="fild-item" for="tel">Телефон</label>
+                    <input type="tel" class="form-input" name="tel" id="tel" placeholder=" " />
+                    <svg class="icon-fild">
+                        <use href="./image/sprite.svg#icon-phone-black"></use>
+                    </svg>
+                </div>
+                <div class="modal-fild">
+                    <label class="fild-item" for="email">Почта</label>
+                    <input type="email" class="form-input" name="email" id="email" placeholder=" " />
+                    <svg class="icon-fild">
+                        <use href="./image/sprite.svg#icon-person-black"></use>
+                    </svg>
+                </div>
+                <div class="modal-fild">
+                    <label class="fild-item" for="text">Комментарий</label>
+                    <input type="text" class="form-input coment-input" name="text" id="text" placeholder="Введите текст" />
+                </div>
+                <div>
+                    <label class="check-label" for="check"></label> <input class="check-in" type="checkbox" name="checkbox" id="check" />
+                    <span class="checkbox-icon-border"></span>
+                    <svg class="checkbox-icon">
+                        <use href="./image/sprite.svg#icon-Vector"></use>
+                    </svg>
+                    <span class="checkbox-text">Соглашаюсь с рассылкой и принимаю<a class="modal-policy-link" href="#">Условия договора</a></span>
+                </div>
+                <button type="submit" class="btn-submit">Отправить</button> </form>
+        </div>
     </div>
     <script src="./js/modal.js "></script>
 </body>

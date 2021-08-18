@@ -748,6 +748,18 @@ img {
     fill: #F5F4FA;
 }
 
+.modal-titel {
+    position: relative;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.15;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--second-color);
+    margin-top: 40px;
+    margin-bottom: 12px;
+}
+
 .footer-form {
     position: relative;
 }
@@ -783,4 +795,116 @@ img {
 
 .btn-icon {
     fill: #FFFFFf;
+}
+
+.modal-fild {
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-fild:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.icon-fild {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: 50%;
+    left: 12px;
+}
+
+.modal-form {
+    width: 448px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.form-input {
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.fild-item {
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.01em;
+}
+
+.coment-input {
+    height: 120px;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.01em;
+}
+
+.icon-border {
+    width: 16px;
+    height: 15px;
+    border: 2px solid black;
+    border-radius: 2px;
+    margin-right: 8px;
+    margin-left: 43px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.checkbox-icon {
+    width: 16px;
+    height: 15px;
+    background-color: var(--accent-color);
+    border-radius: 2px;
+    margin-right: 8px;
+    opacity: 0;
+}
+
+.checkbox-text {
+    display: inline-block;
+}
+
+.check-label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.check-in {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.check-in:checked+.checkbox-icon {
+    opacity: 1;
+    background-color: var(--accent-color);
+}
+
+.btn-submit {
+    width: 200px;
+    height: 50px;
+    background-color: var(--accent-color);
+    border-radius: 4px;
+    border: transparent;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    position: relative;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.modal-policy-link {
+    text-decoration-line: underline;
+    color: var(--accent-color);
 }
