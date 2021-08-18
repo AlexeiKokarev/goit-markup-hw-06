@@ -800,6 +800,7 @@ img {
 .modal-fild {
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 
 .modal-fild:not(:last-child) {
