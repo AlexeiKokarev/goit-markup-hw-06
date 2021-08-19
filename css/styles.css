@@ -884,7 +884,8 @@ img {
     overflow: hidden;
 }
 
-.check-in:checked+.checkbox-icon {
+.check-in:checked+.checkbox-icon-border,
+.check-in:checked+.checkbox-icon-border .checkbox-icon {
     opacity: 1;
     background-color: var(--accent-color);
 }
