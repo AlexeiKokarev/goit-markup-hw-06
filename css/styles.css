@@ -809,8 +809,6 @@ img {
 
 .icon-fild {
     position: absolute;
-    width: 18px;
-    height: 18px;
     top: 50%;
     bottom: 50%;
     left: 12px;
@@ -861,9 +859,7 @@ img {
     border-radius: 2px;
     margin-right: 8px;
     margin-left: 43px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: inline-block;
 }
 
 .checkbox-icon {
