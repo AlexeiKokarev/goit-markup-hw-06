@@ -764,17 +764,20 @@ img {
     position: relative;
 }
 
-.mail-label {
-    position: relative;
+.footer-input {
     width: 358px;
     height: 50px;
-    color: #FFFFFF;
-    background-color: #2F303A;
-    outline: none;
     border: 1px solid rgba(255, 255, 255, 0.3);
     box-sizing: border-box;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
+}
+
+.mail-label {
+    position: relative;
+    color: #FFFFFF;
+    background-color: #2F303A;
+    outline: none;
 }
 
 .btn-subscribe {
@@ -839,8 +842,8 @@ img {
     border-color: var(--accent-color);
 }
 
-.form-input:focus .icon-fild,
-.form-input:hover .icon-fild {
+.icon-fild:focus,
+.icon-fild:hover {
     fill: var(--accent-color);
 }
 
