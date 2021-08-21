@@ -871,6 +871,9 @@ img {
 }
 
 .checkbox-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     left: 1px;
     top: 3px;
     opacity: 0;
