@@ -887,13 +887,11 @@ img {
 }
 
 .check-label {
-    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 20px;
     margin-bottom: 30px;
-    cursor: pointer;
 }
 
 .check-in {
@@ -914,6 +912,9 @@ img {
 }
 
 .btn-submit {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     width: 200px;
     height: 50px;
     background-color: var(--accent-color);
@@ -924,7 +925,6 @@ img {
     line-height: 1.87;
     letter-spacing: 0.06em;
     color: #FFFFFF;
-    position: relative;
     margin-left: 25%;
     margin-right: 25%;
 }
