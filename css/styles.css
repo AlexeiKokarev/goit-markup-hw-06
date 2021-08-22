@@ -877,7 +877,6 @@ img {
     left: 1px;
     top: 3px;
     opacity: 0;
-    fill: tomato;
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -893,7 +892,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 30px;
+    margin-top: 20px;
     margin-bottom: 30px;
 }
 
