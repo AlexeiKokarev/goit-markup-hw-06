@@ -867,7 +867,7 @@ img {
     border-radius: 2px;
     margin-right: 8px;
     margin-left: 43px;
-    display: inline-block;
+    display: flex;
 }
 
 .checkbox-icon {
