@@ -407,6 +407,10 @@ img {
     padding-right: 15px;
 }
 
+.container-footer-contacts {
+    flex-grow: 1;
+}
+
 .section {
     padding-top: 94px;
     padding-bottom: 94px;
@@ -843,8 +847,8 @@ img {
     border-color: var(--accent-color);
 }
 
-.icon-fild:focus,
-.icon-fild:hover {
+.form-input:focus .icon-fild,
+.form-input:hover .icon-fild {
     fill: var(--accent-color);
 }
 
