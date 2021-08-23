@@ -623,6 +623,10 @@ img {
     margin-left: 70px;
 }
 
+.container-footer-subscribe {
+    margin-left: 93px;
+}
+
 .container-footer {
     display: flex;
     align-items: baseline;
@@ -850,6 +854,7 @@ img {
 
 .coment-input {
     outline: none;
+    cursor: pointer;
 }
 
 .coment-input:focus,
