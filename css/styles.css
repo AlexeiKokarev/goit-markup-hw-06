@@ -791,6 +791,7 @@ img {
 
 .btn-subscribe {
     margin-left: 12px;
+    padding-right: 28px;
     width: 200px;
     height: 50px;
     font-weight: 700;
@@ -804,7 +805,6 @@ img {
     cursor: pointer;
     display: inline-block;
     align-items: baseline;
-    justify-content: center;
 }
 
 .btn-icon {
